@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.6.3">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="Performance Test - Poll Creation" enabled="true">
+      <stringProp name="TestPlan.comments">Performance test for creating polls with title and date fields</stringProp>
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.tearDown_on_shutdown">true</boolProp>
+      <hashTree>
+        <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="Load Test Users" enabled="true">
+          <stringProp name="ThreadGroup.num_threads">100</stringProp>
+          <stringProp name="ThreadGroup.ramp_time">30</stringProp>
+          <stringProp name="ThreadGroup.duration">120</stringProp>
+          <boolProp name="ThreadGroup.scheduler">true</boolProp>
+          <hashTree>
+            <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="Poll Data CSV" enabled="true">
+              <stringProp name="filename">poll_data.csv</stringProp>
+              <stringProp name="variableNames">title,date</stringProp>
+              <boolProp name="quotedData">false</boolProp>
+              <boolProp name="recycle">true</boolProp>
+              <boolProp name="stopThread">false</boolProp>
+              <stringProp name="delimiter">,</stringProp>
+            </CSVDataSet>
+            <hashTree/>
+            <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="Create Poll Request" enabled="true">
+              <stringProp name="HTTPSampler.domain">localhost</stringProp> <stringProp name="HTTPSampler.port">3000</stringProp> <stringProp name="HTTPSampler.protocol">http</stringProp> <stringProp name="HTTPSampler.path">/new</stringProp> <stringProp name="HTTPSampler.method">POST</stringProp> <boolProp name="HTTPSampler.follow_redirects">true</boolProp> <stringProp name="HTTPSampler.postBodyRaw">{
+                "title": "${title}",
+                "location": "Location",
+                "description": "Description",
+                "options": [
+                  {
+                    "date": "${date}"
+                  }
+                ]
+              }</stringProp> <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp> <stringProp name="HTTPSampler.embedded_url_re"></stringProp> <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            </HTTPSamplerProxy>
+            <hashTree>
+              <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+                <collectionProp name="HeaderManager.headers">
+                  <elementProp name="" elementType="Header">
+                    <stringProp name="Header.name">Content-Type</stringProp>
+                    <stringProp name="Header.value">application/json</stringProp>
+                  </elementProp>
+                </collectionProp>
+              </HeaderManager>
+              <hashTree/>
+              <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Check Response Code" enabled="true">
+                <collectionProp name="Asserion.test_strings">
+                  <stringProp name="test_string">200</stringProp>
+                </collectionProp>
+                <stringProp name="Assertion.test_field">Assertion.response_code</stringProp>
+                <boolProp name="Assertion.assume_success">false</boolProp>
+              </ResponseAssertion>
+              <hashTree/>
+            </hashTree>
+          </hashTree>
+        </ThreadGroup>
+        <hashTree>
+          <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report" enabled="true">
+            <stringProp name="ResultCollector.filename">summary_report.jtl</stringProp>
+          </ResultCollector>
+          <hashTree/>
+        </hashTree>
+      </hashTree>
+    </TestPlan>
+    <hashTree/>
+  </hashTree>
+</jmeterTestPlan>

@@ -24,8 +24,27 @@ class CreatePollPage {
     }
 
     async selectDate(day) {
-        const dateLocator = `.z-10:has-text("${day}")`;
-        await this.page.click(dateLocator);
+        // 1. Get the calendar grid element
+        const gridElement = await this.page.$('.grid.grow.grid-cols-7.rounded-md.border.bg-white.shadow-sm');
+
+        // 2. Get all date button elements within the grid
+        const dateElements = await gridElement.$$('button');
+
+        // 3. Calculate the target date's position within the grid
+        const matchingDateElements = [];
+        for (let i = 0; i < dateElements.length; i++) {
+            const dateText = await dateElements[i].textContent();
+            if (dateText.trim() === day.toString()) {
+                matchingDateElements.push(dateElements[i]);
+            }
+        }
+
+        // 4. Click on the target date element
+        if (matchingDateElements.length > 0) {
+            await matchingDateElements[matchingDateElements.length - 1].click();
+        } else {
+            throw new Error(`Day ${day} not found in the current month`);
+        }
     }
 
     async selectToday() {

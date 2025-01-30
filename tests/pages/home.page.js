@@ -5,7 +5,7 @@ class HomePage {
     }
 
     async navigate() {
-        await this.page.goto('/');
+        await this.page.goto('http://localhost:3000/');
     }
 
     async clickCreatePoll() {

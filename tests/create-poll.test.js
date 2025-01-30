@@ -16,7 +16,7 @@ test.describe('Create Poll Page Tests', () => {
         const title = 'Sprint Retro Meeting';
         const location = 'Team zoom link';
         const description = 'What worked? What did not work?';
-        const day = 29; // Example day
+        const day = 30; // Example day
 
         // Fill in poll details and select date
         await createPollPage.fillPollDetails(title, location, description, day);
@@ -33,7 +33,7 @@ test.describe('Create Poll Page Tests', () => {
         const title = 'Sprint Retro Meeting';
         const location = ''; // Location is blank
         const description = 'What worked? What did not work?';
-        const day = 29; // Example day
+        const day = 30; // Example day
 
         // Fill in poll details and select date
         await createPollPage.fillPollDetails(title, location, description, day);
@@ -50,7 +50,7 @@ test.describe('Create Poll Page Tests', () => {
         const title = 'Sprint Retro Meeting';
         const location = 'Team zoom link';
         const description = ''; // Description is blank
-        const day = 29; // Example day
+        const day = 30; // Example day
 
         // Fill in poll details and select date
         await createPollPage.fillPollDetails(title, location, description, day);
@@ -68,7 +68,7 @@ test.describe('Create Poll Page Tests', () => {
         const title = '';
         const location = 'Team zoom link';
         const description = 'What worked? What did not work?';
-        const day = 22; // Example day
+        const day = 30; // Example day
 
         // Fill in poll details and select date
         await createPollPage.fillPollDetails(title, location, description, day);

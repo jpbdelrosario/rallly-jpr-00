@@ -1,0 +1,57 @@
+2025-01-30 07:39:11,669 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2025-01-30 07:39:11,686 INFO o.a.j.JMeter: Loading user properties from: C:\Program Files\apache-jmeter-5.6.3\bin\user.properties
+2025-01-30 07:39:11,686 INFO o.a.j.JMeter: Loading system properties from: C:\Program Files\apache-jmeter-5.6.3\bin\system.properties
+2025-01-30 07:39:11,692 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2025-01-30 07:39:11,692 INFO o.a.j.JMeter: Version 5.6.3
+2025-01-30 07:39:11,692 INFO o.a.j.JMeter: java.version=23.0.2
+2025-01-30 07:39:11,692 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2025-01-30 07:39:11,692 INFO o.a.j.JMeter: os.name=Windows 11
+2025-01-30 07:39:11,692 INFO o.a.j.JMeter: os.arch=amd64
+2025-01-30 07:39:11,692 INFO o.a.j.JMeter: os.version=10.0
+2025-01-30 07:39:11,692 INFO o.a.j.JMeter: file.encoding=UTF-8
+2025-01-30 07:39:11,692 INFO o.a.j.JMeter: java.awt.headless=null
+2025-01-30 07:39:11,692 INFO o.a.j.JMeter: Max memory     =1073741824
+2025-01-30 07:39:11,692 INFO o.a.j.JMeter: Available Processors =8
+2025-01-30 07:39:11,700 INFO o.a.j.JMeter: Default Locale=English (EN)
+2025-01-30 07:39:11,700 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2025-01-30 07:39:11,700 INFO o.a.j.JMeter: JMeterHome=C:\Program Files\apache-jmeter-5.6.3
+2025-01-30 07:39:11,700 INFO o.a.j.JMeter: user.dir  =D:\Rallly-test
+2025-01-30 07:39:11,700 INFO o.a.j.JMeter: PWD       =D:\Rallly-test
+2025-01-30 07:39:11,704 INFO o.a.j.JMeter: IP: 10.0.0.53 Name: JP112124-DELL FullName: host.docker.internal
+2025-01-30 07:39:11,711 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2025-01-30 07:39:11,829 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2025-01-30 07:39:12,912 INFO o.a.j.JMeterGuiLauncher: Loading file: jmeter\performance-test.jmx
+2025-01-30 07:39:12,922 INFO o.a.j.s.FileServer: Default base='D:\Rallly-test'
+2025-01-30 07:39:12,925 INFO o.a.j.s.FileServer: Set new base='D:\Rallly-test\jmeter'
+2025-01-30 07:39:13,184 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2025-01-30 07:39:13,206 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2025-01-30 07:39:13,209 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2025-01-30 07:39:13,211 INFO o.a.j.s.SaveService: Loading file: jmeter\performance-test.jmx
+2025-01-30 07:39:13,226 ERROR o.a.j.JMeterGuiLauncher: Failure loading test file
+com.thoughtworks.xstream.io.StreamException: 
+	at com.thoughtworks.xstream.io.xml.XppReader.pullNextEvent(XppReader.java:126) ~[xstream-1.4.20.jar:1.4.20]
+	at com.thoughtworks.xstream.io.xml.AbstractPullReader.readRealEvent(AbstractPullReader.java:148) ~[xstream-1.4.20.jar:1.4.20]
+	at com.thoughtworks.xstream.io.xml.AbstractPullReader.readEvent(AbstractPullReader.java:141) ~[xstream-1.4.20.jar:1.4.20]
+	at com.thoughtworks.xstream.io.xml.AbstractPullReader.move(AbstractPullReader.java:118) ~[xstream-1.4.20.jar:1.4.20]
+	at com.thoughtworks.xstream.io.xml.AbstractPullReader.moveDown(AbstractPullReader.java:103) ~[xstream-1.4.20.jar:1.4.20]
+	at com.thoughtworks.xstream.io.xml.XppReader.<init>(XppReader.java:63) ~[xstream-1.4.20.jar:1.4.20]
+	at com.thoughtworks.xstream.io.xml.AbstractXppDriver.createReader(AbstractXppDriver.java:54) ~[xstream-1.4.20.jar:1.4.20]
+	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:1321) ~[xstream-1.4.20.jar:1.4.20]
+	at org.apache.jmeter.save.SaveService.readTree(SaveService.java:446) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.save.SaveService.loadTree(SaveService.java:429) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.JMeterGuiLauncher$loadFile$2.invokeSuspend(JMeterGuiLauncher.kt:140) ~[ApacheJMeter_core.jar:5.6.3]
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33) ~[kotlin-stdlib-1.9.22.jar:1.9.22-release-704]
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:108) ~[kotlinx-coroutines-core-jvm-1.7.3.jar:?]
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:584) ~[kotlinx-coroutines-core-jvm-1.7.3.jar:?]
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:793) ~[kotlinx-coroutines-core-jvm-1.7.3.jar:?]
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:697) ~[kotlinx-coroutines-core-jvm-1.7.3.jar:?]
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:684) ~[kotlinx-coroutines-core-jvm-1.7.3.jar:?]
+Caused by: java.io.EOFException: input contained no data
+	at io.github.xstream.mxparser.MXParser.fillBuf(MXParser.java:3027) ~[mxparser-1.2.2.jar:1.2.2]
+	at io.github.xstream.mxparser.MXParser.more(MXParser.java:3089) ~[mxparser-1.2.2.jar:1.2.2]
+	at io.github.xstream.mxparser.MXParser.parseProlog(MXParser.java:1421) ~[mxparser-1.2.2.jar:1.2.2]
+	at io.github.xstream.mxparser.MXParser.nextImpl(MXParser.java:1406) ~[mxparser-1.2.2.jar:1.2.2]
+	at io.github.xstream.mxparser.MXParser.next(MXParser.java:1104) ~[mxparser-1.2.2.jar:1.2.2]
+	at com.thoughtworks.xstream.io.xml.XppReader.pullNextEvent(XppReader.java:109) ~[xstream-1.4.20.jar:1.4.20]
+	... 16 more
+2025-01-30 07:39:13,231 ERROR o.a.j.u.JMeterUtils: com.thoughtworks.xstream.io.StreamException: 

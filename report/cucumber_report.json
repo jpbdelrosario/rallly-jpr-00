@@ -1,0 +1,511 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "create-poll;create-a-poll-with-all-fields-filled",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Create a poll with all fields filled",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the Create Poll page",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 986329700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I fill in the title with \"Sprint Retro Meeting\"",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 920420699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I fill in the location with \"Team zoom link\"",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31357500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I fill in the description with \"What worked? What did not work?\"",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25578199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I select the date \"30\"",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 154085500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I submit the poll",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 49257399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the poll should be created successfully",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 369034999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 76326299
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "create-poll;create-a-poll-with-title-and-date-only-(location-is-optional)",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Create a poll with title and date only (location is optional)",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "I am on the Create Poll page",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1023234300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I fill in the title with \"Sprint Retro Meeting\"",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 884190799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "I fill in the description with \"What worked? What did not work?\"",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24312799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "I select the date \"30\"",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 136132700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "I submit the poll",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50581299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "the poll should be created successfully",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 369452999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 65534200
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "create-poll;create-a-poll-with-title-and-date-only-(description-is-optional)",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Create a poll with title and date only (description is optional)",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "I am on the Create Poll page",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1050785499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I fill in the title with \"Sprint Retro Meeting\"",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 873229200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I fill in the location with \"Team zoom link\"",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25411199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I select the date \"30\"",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 129448199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I submit the poll",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 62932099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "the poll should be created successfully",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 372329400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 50303399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "create-poll;create-a-poll-with-missing-title",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Create a poll with missing title",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 29,
+            "name": "I am on the Create Poll page",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1048655699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "I fill in the location with \"Team zoom link\"",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 935333400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "I fill in the description with \"What worked? What did not work?\"",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32343100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "I select the date \"30\"",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 149947500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "I submit the poll",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 56185900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "an error message should be displayed for the missing title",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2981499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 200944000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "create-poll;create-a-poll-with-missing-date",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "Create a poll with missing date",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 37,
+            "name": "I am on the Create Poll page",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 998647899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "I fill in the title with \"Sprint Retro Meeting\"",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 893038400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "I fill in the location with \"Team zoom link\"",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29970499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "I fill in the description with \"What worked? What did not work?\"",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 41825600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "I submit the poll",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 70123900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "an error message should be displayed for the missing date",
+            "match": {
+              "location": "features\\step-definitions\\step-definitions.js:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2627599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 65427500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "create-poll",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Create Poll",
+    "tags": [],
+    "uri": "features\\create-poll.feature"
+  }
+]

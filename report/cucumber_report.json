@@ -19,7 +19,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 986329700
+              "duration": 2102115000
             }
           },
           {
@@ -32,7 +32,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 920420699
+              "duration": 1447692999
             }
           },
           {
@@ -45,7 +45,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 31357500
+              "duration": 34784999
             }
           },
           {
@@ -58,20 +58,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 25578199
+              "duration": 29402500
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 8,
-            "name": "I select the date \"30\"",
+            "name": "I select the date \"1\"",
             "match": {
               "location": "features\\step-definitions\\step-definitions.js:38"
             },
             "result": {
               "status": "passed",
-              "duration": 154085500
+              "duration": 205722000
             }
           },
           {
@@ -84,7 +84,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 49257399
+              "duration": 63748200
             }
           },
           {
@@ -97,7 +97,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 369034999
+              "duration": 895491100
             }
           },
           {
@@ -105,7 +105,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 76326299
+              "duration": 455742000
             }
           }
         ],
@@ -129,7 +129,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1023234300
+              "duration": 1281767600
             }
           },
           {
@@ -142,7 +142,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 884190799
+              "duration": 1419486399
             }
           },
           {
@@ -155,20 +155,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 24312799
+              "duration": 35360499
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 16,
-            "name": "I select the date \"30\"",
+            "name": "I select the date \"1\"",
             "match": {
               "location": "features\\step-definitions\\step-definitions.js:38"
             },
             "result": {
               "status": "passed",
-              "duration": 136132700
+              "duration": 175498600
             }
           },
           {
@@ -181,7 +181,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 50581299
+              "duration": 68485099
             }
           },
           {
@@ -194,7 +194,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 369452999
+              "duration": 899463899
             }
           },
           {
@@ -202,7 +202,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 65534200
+              "duration": 515901100
             }
           }
         ],
@@ -226,7 +226,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1050785499
+              "duration": 1439660100
             }
           },
           {
@@ -239,7 +239,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 873229200
+              "duration": 1390690399
             }
           },
           {
@@ -252,20 +252,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 25411199
+              "duration": 33543499
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 24,
-            "name": "I select the date \"30\"",
+            "name": "I select the date \"1\"",
             "match": {
               "location": "features\\step-definitions\\step-definitions.js:38"
             },
             "result": {
               "status": "passed",
-              "duration": 129448199
+              "duration": 232385500
             }
           },
           {
@@ -278,7 +278,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 62932099
+              "duration": 56387199
             }
           },
           {
@@ -291,7 +291,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 372329400
+              "duration": 892096499
             }
           },
           {
@@ -299,7 +299,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 50303399
+              "duration": 136164399
             }
           }
         ],
@@ -323,7 +323,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1048655699
+              "duration": 1452868099
             }
           },
           {
@@ -336,7 +336,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 935333400
+              "duration": 1494906999
             }
           },
           {
@@ -349,20 +349,20 @@
             },
             "result": {
               "status": "passed",
-              "duration": 32343100
+              "duration": 64420299
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 32,
-            "name": "I select the date \"30\"",
+            "name": "I select the date \"1\"",
             "match": {
               "location": "features\\step-definitions\\step-definitions.js:38"
             },
             "result": {
               "status": "passed",
-              "duration": 149947500
+              "duration": 173032200
             }
           },
           {
@@ -375,7 +375,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 56185900
+              "duration": 66898900
             }
           },
           {
@@ -388,7 +388,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2981499
+              "duration": 3484500
             }
           },
           {
@@ -396,7 +396,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 200944000
+              "duration": 67290700
             }
           }
         ],
@@ -420,7 +420,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 998647899
+              "duration": 1307077000
             }
           },
           {
@@ -433,7 +433,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 893038400
+              "duration": 1395206899
             }
           },
           {
@@ -446,7 +446,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 29970499
+              "duration": 25574300
             }
           },
           {
@@ -459,7 +459,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 41825600
+              "duration": 32729800
             }
           },
           {
@@ -472,7 +472,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 70123900
+              "duration": 68585999
             }
           },
           {
@@ -485,7 +485,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2627599
+              "duration": 4481400
             }
           },
           {
@@ -493,7 +493,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 65427500
+              "duration": 183784599
             }
           }
         ],
